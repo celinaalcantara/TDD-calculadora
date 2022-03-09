@@ -32,9 +32,6 @@ fun main() {
     }while (!(operacao >= 1 && operacao <= 4))
 
 
-
-
-
 }
 
 fun adicao(num1: Double, num2: Double): Double{
