@@ -1,6 +1,6 @@
 fun main() {
 
-    var operacao = 0
+    var opcao = 0
 
     println("\nCalculadora\n")
     println("Digite o 1° número: ")
@@ -17,10 +17,10 @@ fun main() {
                 "\n2 - Subtração" +
                 "\n3 - Multiplicação" +
                 "\n4 - Divisão"
-    )
-        operacao = readLine()!!.toInt()
+        )
+        opcao = readLine()!!.toInt()
 
-        when (operacao) {
+        when (opcao) {
 
             1 -> println(adicao(num1, num2))
             2 -> println(subtracao(num1, num2))
@@ -29,7 +29,7 @@ fun main() {
             else -> println("Operação inválida.\n")
         }
 
-    }while (!(operacao >= 1 && operacao <= 4))
+    }while (!(opcao >= 1 && opcao <= 4))
 
 
 }
