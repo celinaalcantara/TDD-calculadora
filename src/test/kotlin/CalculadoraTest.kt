@@ -1,10 +1,14 @@
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 internal class CalculadoraTest {
 
     //@Test indica que função sera um teste.
+
     //asserts serão utilizados para verificação.
+
+    //@BeforeEach - fazer tratativa c/ objetos antes de rodar.
 
     @Test
     fun adicaoTest() {
@@ -34,6 +38,5 @@ internal class CalculadoraTest {
         /*assertEquals(2, Calculadora.divisao (10, 5))*/
 
     }
-
 
 }
